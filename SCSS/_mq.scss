@@ -1,0 +1,150 @@
+@media (max-width: 340px) {
+    main {
+        padding: 0;
+    }
+}
+
+@media (min-aspect-ratio:1/2) {
+    .background {
+        background-position-x: 0;
+    }
+}
+
+@media (min-width:980px) {
+    html {
+        font-size: 80%;
+    }
+
+    p,
+    label,
+    .links a {
+        font-size: 1rem !important;
+    }
+
+    .wrapper {
+        background: linear-gradient(white, $light-grey-color);
+        min-width: 42.5rem;
+    }
+
+    body {
+        display: flex;
+    }
+
+    header {
+        height: auto;
+        margin: 6.3125rem 6.25rem 0;
+        padding: 0;
+        background-color: transparent;
+
+        .logo-wrap {
+            display: flex;
+            align-items: center;
+            gap: 0.9375rem;
+
+        }
+
+        .links {
+            gap: 0.625rem;
+        }
+
+        i {
+            color: black;
+            display: block;
+        }
+
+        i,
+        .links {
+            margin-top: 0.5rem;
+            line-height: 1.625rem;
+        }
+
+    }
+    .main-victory {
+        align-items:flex-start;
+        margin-top:7.6875rem;
+        .pine-victory {
+            margin-bottom: 1.875rem;
+        }
+        p{
+            margin-bottom: 3.125rem;
+        }
+        h2 {
+            margin-bottom: 1.25rem;
+        }
+
+        .br-victory {
+            display: block;
+        }
+    }
+    main {
+        padding: 0;
+
+        p,
+        label {
+            line-height: 1.75rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            line-height: 2.75rem;
+            margin-bottom: 0.9375rem;
+        }
+
+        p {
+            .br-m {
+                display: none;
+            }
+
+            .br-d {
+                display: block;
+            }
+
+            margin-bottom: 3.125rem;
+        }
+        .email-container{
+            height: 4.375rem;
+            margin: 0 -5.1875rem 1.65625rem -2.5rem;
+            padding: 0 2.5rem 0 2.6875rem;
+
+            input {
+                transform: translate3d(0, -0.125rem, 0);
+            }
+        }
+        div.spacer{
+            padding-bottom:1.65625rem;
+        }
+        .checkbox-container {
+            margin-bottom: 3.125rem;
+        }
+
+        hr {
+            margin-bottom: 3.125rem;
+            width: 25rem
+        }
+
+        .container {
+            padding: 0;
+            background: none;
+            margin: 0 0 0.75rem 8.75rem;
+        }
+
+        .social {
+            gap: 0.625rem;
+            padding: 0;
+            margin-right: 8.125rem;
+        }
+    }
+
+    div.background {
+        position: static;
+        height: 100%;
+        min-width: min-content;
+    }
+}
+
+@media (min-width:1600px) {
+    html {
+
+        font-size: 100%;
+    }
+}
